@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: goldpay-postgres-dev
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: goldpay_user
+      POSTGRES_PASSWORD: goldpay_password
+      POSTGRES_DB: goldpay_erp
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_dev_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    container_name: goldpay-redis-dev
+    restart: unless-stopped
+    command: redis-server --appendonly yes --requirepass goldpay_redis_pass
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_dev_data:/data
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: goldpay-pgadmin
+    restart: unless-stopped
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@goldpay.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_dev_data:
+  redis_dev_data:

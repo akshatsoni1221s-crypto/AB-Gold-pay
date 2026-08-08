@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="12" fill="#F3F4F6"/>
+  <circle cx="100" cy="100" r="55" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="3"/>
+  <circle cx="100" cy="100" r="45" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="100" y="105" text-anchor="middle" font-size="24" font-weight="bold" fill="#4B5563">100g</text>
+  <text x="100" y="125" text-anchor="middle" font-size="10" fill="#6B7280">.999 FINE</text>
+  <text x="100" y="185" text-anchor="middle" font-size="10" fill="#374151">Silver Coin 100g</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="12" fill="#F3F4F6"/>
+  <circle cx="100" cy="100" r="55" stroke="#9CA3AF" stroke-width="6" fill="none"/>
+  <circle cx="100" cy="100" r="45" stroke="#D1D5DB" stroke-width="3" fill="none"/>
+  <circle cx="100" cy="100" r="35" stroke="#E5E7EB" stroke-width="2" fill="none"/>
+  <circle cx="100" cy="100" r="4" fill="#6B7280"/>
+  <text x="100" y="185" text-anchor="middle" font-size="10" fill="#374151">Silver Bangles</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="12" fill="#FEF3C7"/>
+  <circle cx="70" cy="80" r="30" stroke="#D97706" stroke-width="3" fill="none"/>
+  <circle cx="70" cy="80" r="8" fill="#F59E0B"/>
+  <line x1="70" y1="50" x2="70" y2="30" stroke="#D97706" stroke-width="3"/>
+  <circle cx="130" cy="80" r="30" stroke="#D97706" stroke-width="3" fill="none"/>
+  <circle cx="130" cy="80" r="8" fill="#F59E0B"/>
+  <line x1="130" y1="50" x2="130" y2="30" stroke="#D97706" stroke-width="3"/>
+  <text x="100" y="185" text-anchor="middle" font-size="10" fill="#92400E">Gold Earrings</text>
+</svg>

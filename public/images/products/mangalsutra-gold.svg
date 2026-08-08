@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="12" fill="#FEF3C7"/>
+  <circle cx="100" cy="40" r="15" fill="#F59E0B" stroke="#D97706" stroke-width="2"/>
+  <circle cx="100" cy="40" r="5" fill="#FEF3C7"/>
+  <path d="M85 40 L40 100" stroke="#D97706" stroke-width="2" stroke-dasharray="3,3"/>
+  <path d="M115 40 L160 100" stroke="#D97706" stroke-width="2" stroke-dasharray="3,3"/>
+  <ellipse cx="40" cy="115" rx="18" ry="12" fill="#F59E0B"/>
+  <ellipse cx="160" cy="115" rx="18" ry="12" fill="#F59E0B"/>
+  <circle cx="100" cy="120" r="20" fill="#F59E0B" stroke="#D97706" stroke-width="2"/>
+  <circle cx="100" cy="120" r="7" fill="#FEF3C7"/>
+  <circle cx="100" cy="120" r="3" fill="#D97706"/>
+  <text x="100" y="185" text-anchor="middle" font-size="10" fill="#92400E">Gold Mangalsutra</text>
+</svg>

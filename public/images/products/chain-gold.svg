@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="12" fill="#FEF3C7"/>
+  <path d="M100 30 C70 50,60 80,65 100 C70 120,80 140,100 170" stroke="#D97706" stroke-width="3" fill="none"/>
+  <path d="M100 30 C130 50,140 80,135 100 C130 120,120 140,100 170" stroke="#D97706" stroke-width="3" fill="none"/>
+  <circle cx="80" cy="60" r="4" fill="#F59E0B"/>
+  <circle cx="120" cy="60" r="4" fill="#F59E0B"/>
+  <circle cx="70" cy="85" r="4" fill="#F59E0B"/>
+  <circle cx="130" cy="85" r="4" fill="#F59E0B"/>
+  <circle cx="65" cy="110" r="4" fill="#F59E0B"/>
+  <circle cx="135" cy="110" r="4" fill="#F59E0B"/>
+  <circle cx="80" cy="140" r="4" fill="#F59E0B"/>
+  <circle cx="120" cy="140" r="4" fill="#F59E0B"/>
+  <text x="100" y="185" text-anchor="middle" font-size="10" fill="#92400E">24KT Gold Chain</text>
+</svg>
